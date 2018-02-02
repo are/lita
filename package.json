@@ -1,6 +1,6 @@
 {
   "name": "lita",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Literary programming in modern Javascript",
   "main": "src/index.js",
   "scripts": {
