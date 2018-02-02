@@ -1,6 +1,6 @@
 {
   "name": "lita",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Literary programming in modern Javascript",
   "main": "src/index.js",
   "scripts": {
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/are1000/lita#readme",
   "dependencies": {
-    "object-path-immutable": "^0.5.2",
     "remark-parse": "^5.0.0",
     "remark-stringify": "^5.0.0",
     "unified": "^6.1.6"

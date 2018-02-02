@@ -1,7 +1,6 @@
 const unified = require('unified')
 const parse = require('remark-parse')
 const stringify = require('remark-stringify')
-const immutable = require('object-path-immutable')
 
 const { recursiveSearch } = require('./utils.js')
 
