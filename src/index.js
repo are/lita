@@ -33,9 +33,9 @@ module.exports = function process (input) {
   })
 
   let output = oblocks.map(({ path, value: entry }) => {
-    return '\n' + entry.value.replace(R_IMPORT, (match, p1) => {
-      return blocks[p1]
-    }) + '\n'
+    return entry.value.replace(R_IMPORT, (match, p1) => {
+      return '\n' + blocks[p1] + '\n'
+    })
   })
 
   return output.join('\n')
